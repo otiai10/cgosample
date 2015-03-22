@@ -1,20 +1,9 @@
 package main
 
-/*
-#include <iostream>
-void baz() {
-    std::count << "HELLO, C++!" << std::endl;
-}
-*/
-
-/*
-#include <stdio.h>
-void baz() {
-    printf("HELLO, C!!!!!!!!!!!!!!!!!!!\n");
-}
-*/
-import "C"
+import (
+	"github.com/otiai10/cgosample/cppproject/mycppwrapper"
+)
 
 func main() {
-    C.baz()
+	mycppwrapper.Bar()
 }
