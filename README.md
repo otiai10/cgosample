@@ -1,6 +1,6 @@
 # cgosample
 
-Sample to write cgo.
+Samples to write cgo.
 
 # 1) How to start "cgo"
 
