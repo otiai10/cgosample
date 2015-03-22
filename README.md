@@ -66,3 +66,23 @@ run the test
 ```
 go test ./mylib/test/... -v
 ```
+
+# 3) How to start C++ project by "cgo"
+
+[cppproject/main.go](cppproject/main.go)
+
+```
+./cppproject
+├── main.go
+├── mycppwrapper
+    ├── cpplib.cpp
+    ├── cpplib.h
+    └── wrapper.go
+```
+
+run
+
+```
+cd cppproject
+go run main.go
+```
