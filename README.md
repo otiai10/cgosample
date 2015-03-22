@@ -74,7 +74,7 @@ go test ./mylib/test/... -v
 ```
 ./cppproject
 ├── main.go
-├── mycppwrapper
+└── mycppwrapper
     ├── cpplib.cpp
     ├── cpplib.h
     └── wrapper.go
